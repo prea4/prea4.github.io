@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>EA</title>
+  <style>
+      body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#hero {
+  background-image: url('neom-Nowd8MgUK8A-unsplash.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px;
+}
+
+.features-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+#nav {
+  text-align: center;
+}
+#ul{
+  border: 0px 1px 0px 1px;
+}
+
+  </style>
+</head>
+
+<body>
+    <header>
+      <nav id="nav">
+        <ul id="ul">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Landing Page!</h1>
+      <p>This is a simple landing page template.</p>
+      <button>Get Started</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ex in mauris mollis convallis. Proin at aliquet
+        ante.</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="features-content">
+      <h2>Features</h2>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <h4>we appreciate it if you fill out the form below and give us feedback to help us improve our services </h4>
+      <form
+  action="https://formspree.io/f/xrgwkqgl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <br />
+  <br />
+  <label>
+    Your name:
+    <input type="name" name="name">
+  </label>
+  <br />
+  <br />
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <br /><br />
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023  EA . All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
